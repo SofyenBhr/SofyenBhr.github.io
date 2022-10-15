@@ -76,6 +76,8 @@ nav a:active {
 h2 {
     margin: 50px 0 10px 0;
 }
+
+/* ABOUT */
 #about {
     border: 1px solid black;
     padding: 20px 0;
@@ -99,4 +101,18 @@ h2 {
 #portfolio img {
     width: 150px;
     border-radius: 50%;
+}
+
+/* SKILLS */
+#skills {
+    border: 1px solid black;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+#skills div {
+    grid-column: span 6;
+}
+#skills img {
+    width: 150px;
 }
