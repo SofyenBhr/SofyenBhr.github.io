@@ -1,0 +1,36 @@
+/* MOBILE STYLE */
+body {
+    background: #E7DFD8;
+    text-align: center;
+    margin: 0 1px;
+}
+nav img {
+    display: block;
+    width: 25px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+nav img:hover {
+    cursor: pointer;
+}
+nav ul {
+    display: none;
+    list-style-type: none;
+    margin-left: -40px;
+}
+nav li {
+    margin-bottom: 15px;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+nav a:hover {
+    color: black;
+}
+nav a:active {
+    color: gray;
+}
