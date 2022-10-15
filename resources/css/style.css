@@ -1,9 +1,11 @@
 /* MOBILE STYLE */
 body {
     background: #E7DFD8;
-    text-align: center;
     margin: 0 1px;
+    text-align: center;
 }
+
+/* NAV */
 nav img {
     display: block;
     width: 25px;
@@ -33,4 +35,40 @@ nav a:hover {
 }
 nav a:active {
     color: gray;
+}
+
+/* BANNER */
+#banner {
+    background-image: url("../images/aircraft-engineer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border: 1px solid black;
+    padding: 20px 0;
+    color: #E7DFD8;
+    text-shadow: 1px 1px 10px black;
+    font-weight: 600;
+}
+#banner .banner-img {
+    display: none;
+}
+#banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+#banner a {
+    background: none;
+    border: 2px solid #E7DFD8;
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    color: #E7DFD8;
+    text-decoration: none;
+}
+#banner a:hover {
+    color: black;
+    background-color: #E7DFD8;
+    text-shadow: none;
 }
