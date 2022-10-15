@@ -90,6 +90,8 @@ h2 {
     width: 100%;
     height: auto;
 }
+
+/* PORTFOLIO */
 #portfolio {
     border: 1px solid black;
     padding: 20px 0;
@@ -116,6 +118,8 @@ h2 {
 #skills img {
     width: 150px;
 }
+
+/* CONTACT */
 #contact {
     border: 1px solid black;
     padding: 20px 0;
@@ -146,4 +150,15 @@ h2 {
     border: 2px solid #E7DFD8;
     background: black;
     color: #E7DFD8;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img {
+    width: 20px;
 }
