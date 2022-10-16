@@ -1,11 +1,27 @@
+/* FONTS */
+@font-face {
+    font-family: Open-sans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: Garamond;
+    src: url("../fonts/EBGaramond.ttf");
+}
+
 /* MOBILE STYLE */
 body {
     background: #E7DFD8;
     margin: 0 1px;
     text-align: center;
+    font-family: Agrandir;
+    font-family: Open-sans;
 }
 h2 {
     margin: 50px 0 10px 0;
+}
+h2, h4 {
+    text-transform: uppercase;
+    font-family: Garamond;
 }
 
 /* NAV */
@@ -51,6 +67,7 @@ nav a:active {
     padding: 20px 0;
     color: #E7DFD8;
     font-weight: 600;
+    border-radius: 5px 5px 0 0;
 }
 #banner .banner-img {
     display: none;
@@ -82,9 +99,10 @@ nav a:active {
 #banner-overlay {
     position: absolute;
     top: 54px;
-    width: 99.2%;
-    height: 223px;
+    width: 99.9%;
+    height: 243px;
     background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px 5px 0 0;
 }
 #banner * {
     position: relative;
