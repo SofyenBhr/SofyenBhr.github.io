@@ -13,7 +13,6 @@ body {
     background: #E7DFD8;
     margin: 0 1px;
     text-align: center;
-    font-family: Agrandir;
     font-family: Open-sans;
 }
 h2 {
@@ -63,10 +62,9 @@ nav a:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    border: 1px solid black;
     padding: 20px 0;
     color: #E7DFD8;
-    font-weight: 600;
+    border: 1px solid black;
     border-radius: 5px 5px 0 0;
 }
 #banner .banner-img {
@@ -75,12 +73,10 @@ nav a:active {
 #banner p {
     font-size: 2.5rem;
     margin-bottom: 0;
+    font-weight: 600;
 }
 #banner h1 {
     font-size: 1rem;
-}
-#banner strong {
-    font-weight: 600;
 }
 #banner a {
     background: none;
@@ -100,6 +96,7 @@ nav a:active {
 /* ABOUT */
 #about {
     border: 1px solid black;
+    border-radius: 5px 5px 0 0;
     padding: 20px 0;
 }
 #about .about-img {
@@ -114,6 +111,7 @@ nav a:active {
 /* PORTFOLIO */
 #portfolio {
     border: 1px solid black;
+    border-radius: 5px 5px 0 0;
     padding: 20px 0;
 }
 #portfolio a {
@@ -128,6 +126,7 @@ nav a:active {
 /* SKILLS */
 #skills {
     border: 1px solid black;
+    border-radius: 5px 5px 0 0;
     padding: 20px 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -142,13 +141,13 @@ nav a:active {
 /* CONTACT */
 #contact {
     border: 1px solid black;
+    border-radius: 5px 5px 0 0;
     padding: 20px 0;
 }
 #contact form {
     width: 60%;
     max-width: 400px;
     margin: 20px auto;
-    text-align: center;
 }
 #contact input, #contact textarea {
     width: 100%;
