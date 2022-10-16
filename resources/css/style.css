@@ -98,9 +98,9 @@ nav a:active {
 }
 #banner-overlay {
     position: absolute;
-    top: 54px;
+    top: 3.4rem;
     width: 99.5%;
-    height: 245px;
+    height: 15.3rem;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 5px 5px 0 0;
 }
