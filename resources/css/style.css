@@ -210,3 +210,20 @@ footer img {
         grid-column: 8/12;
     }
 }
+
+/* LARGE TABLET */
+@media screen and (min-width: 768px) {
+    h2 {
+        color: blue;
+    }
+    #banner {
+        background-position: center;
+    }
+    #portfolio img {
+        width: 200px;
+    }
+    #skills img {
+        width: 200px;
+        height: auto;
+    }
+}
